@@ -2,7 +2,17 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
+    id:1,
+    title: "KURA - An AES Encrpted MERN Chat Application",
+    description:
+      "A secure chat application built with the MERN stack, featuring AES encryption for enhanced privacy and real-time messaging capabilities.",
+     image: "/projects/project0.png",
+     tags: ["React","SocketIO" ,"Node.js", "MongoDB", "Express"],
+     demoUrl: "https://kura-indol.vercel.app/",
+      githubUrl: "https://github.com/userDoffy/Kura",
+  },
+  {
+    id: 2,
     title: "BookSphere - MERN Stack",
     description: "A full-stack MERN application for managing books, featuring user authentication and a responsive UI.",
     image: "/projects/project1.png",
@@ -11,7 +21,7 @@ const projects = [
     githubUrl: "https://github.com/userDoffy/BookSphere_MERN",
   },
   {
-    id: 2,
+    id: 3,
     title: "Online Arts Gallery",
     description:
       "An online arts gallery built with Django, showcasing artworks with a modern design and interactive features.",
@@ -21,7 +31,7 @@ const projects = [
     githubUrl: "https://github.com/userDoffy/Online_Arts_Gallery----Django",
   },
   {
-    id: 3,
+    id: 4,
     title: "Digital Grievance Redressal System",
     description:
       "A digital platform for grievance redressal in e-governance, built with React and Node.js, ensuring efficient public service delivery.",
